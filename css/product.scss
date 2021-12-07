@@ -1,0 +1,214 @@
+$navColor: #3e8973;
+$headerColor: #344a38;
+$fontColor: rgb(219, 166, 31);
+$font:'Josefin Sans', sans-serif;
+$fontHeader: 'Raleway', sans-serif;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: $font;
+
+}
+.introBox{ 
+
+   
+    h4{
+        font-size: 18px;
+    }
+
+}
+
+
+.mainSection{
+  
+   margin:10% 0px;
+   text-align: center;
+   font-size: 18px;
+  
+
+    .middleBox{
+        margin-top: 11px;
+    }
+
+
+    .teaBox img{
+        width: 100%;
+
+    }
+   
+
+    a {
+        color: $fontColor;
+    }
+    a:hover{
+        color: navy;
+    }
+
+    .overlayBox p{
+        position: absolute;  
+        padding-top:50px;
+        width: 81%;
+        height: 40%;
+        left: 9.5%;
+        bottom: 16%;
+        align-items: center;
+        background-color: rgba(57, 57, 56, 0.622);
+        align-items: center;
+        color: rgb(255, 252, 252);
+        text-align: center;
+        justify-content: center;
+        transition: all ease-in-out;
+        cursor: pointer;
+        -webkit-transition: all 0.1s ease-in-out;
+        -moz-transition: all 0.1s ease-in-out;
+        -ms-transition: all 0.1s ease-in-out;
+        -o-transition: all 0.1s ease-in-out;
+        transition: all 0.1s ease-in-out;
+    
+    }
+    .overlayBox p:hover{
+        height: 60%;
+       
+    }
+
+}
+
+
+
+@media only screen and (max-width: 418px){
+
+    .ShopHead{
+        height: 60vh;
+        
+    }
+
+.introBox h4{
+    width: 400px;
+}
+
+    .burger {
+        display: flex;
+        flex-direction: column;
+        width: 40px;
+        background-color: $fontColor;
+        height: 3px;
+        margin: 5px auto;
+        border-radius: 5px;
+        cursor: pointer;
+       
+    }
+    .burgerMenu{
+        cursor: pointer;
+        
+    }
+
+
+.navDisplay{
+    display: none;
+    transition: all .3s ease-in-out;
+}
+
+.head {
+    z-index: 200;
+    nav{
+        width: 300px;
+        height: 40vh;
+        margin: auto;
+        border-radius: 10px;
+       
+        li{
+            display: flex;
+            flex-direction: column;
+           background-color: $fontColor;
+           box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.17) 0px 5px 6px;
+           width: 200px;
+           border-radius: 10px;
+            justify-content: center;
+            margin: 20px auto;
+         
+        }
+    }
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 15px auto;
+    
+}
+
+}
+
+
+
+
+
+
+
+
+//-***************------------Digital Sell page -------***************//
+
+
+
+.boxDigital
+{
+    border:2px solid rgba(56, 55, 55, 0.788);
+    padding:20px;
+    border-radius: 8px;
+    margin: 15% 0px;
+    height: 400px;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.firstDownload{
+    background-color: lightgray;
+    padding: 30px;
+    margin: 10% 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.downloadItem {
+    
+    img{
+        width: 300px;
+        border: 2px solid rgb(3, 91, 27);
+    }
+}
+
+
+
+.digitalLinks{
+  
+    margin-top: 25%;
+    padding: 20px;
+    color:rgba(56, 55, 55, 0.788);
+    font-size: 18px;
+
+    button {
+        background-color: $navColor;
+        border: 0px;
+        padding: 30px;
+        border-radius: 10px;
+        cursor: pointer;
+        color:rgba(56, 55, 55, 0.788);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      
+
+        a{
+            color: $fontColor;
+            font-size: 18px;
+        }
+        
+    }
+}
+
+
+
+// 
+
+

@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.checkOut {
+  margin: auto;
+}
+.checkOut form {
+  margin-top: 20px;
+}
+
+header {
+  background-color: #344a38;
+  height: 10vh;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 8% 0px;
+}
+header .logoImg img {
+  margin-top: -10%;
+  width: 300px;
+}
+
+nav {
+  background-color: #3e8973;
+  width: 100%;
+  height: 5vh;
+  text-align: center;
+  padding: 8px 0px;
+}
+nav li {
+  color: goldenrod;
+  list-style: none;
+  display: inline-block;
+  padding: 0px 15px;
+  transition: all 0.3s ease-in-out 0s;
+}
+nav li a {
+  color: #DBA51F;
+  font-size: 20px;
+  text-decoration: underline;
+}
+nav li a:hover {
+  color: whitesmoke;
+}
+nav li:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.topHead {
+  background-color: #344a38;
+}
+.topHead .searchInput {
+  width: 220px;
+}
+
+.formLogin {
+  padding: 10px;
+  margin: auto;
+}
+
+.btnLogin button {
+  margin: auto;
+  padding: 10px;
+  cursor: pointer;
+  opacity: 0.8;
+  border-radius: 10px;
+  border: 0px;
+  background-color: whitesmoke;
+}
+
+.btnLogin button:hover {
+  opacity: 1;
+}
+
+.btnLogin .signin {
+  background-color: #344a38;
+  border: 1px solid white;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.17) 0px 5px 6px;
+  width: 100px;
+}
+
+.btnLogin .signup {
+  width: 100px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(57, 57, 57, 0.478) 0px 5px 6px;
+}
+
+.socialMedia {
+  padding-top: 10px;
+}
+
+.ShopHead {
+  background-color: #344a38;
+  display: flex;
+  justify-content: space-around;
+  color: whitesmoke;
+  padding: 40px;
+  align-items: center;
+  text-align: center;
+  font-size: 3rem;
+  flex-direction: row;
+  font-family: "Raleway", sans-serif;
+}
+.ShopHead button {
+  padding: 20px;
+  border-radius: 100px;
+  background-color: #d8ad14;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.breadcrumb-item {
+  font-size: 20px;
+}
+
+.top {
+  background-color: #3e8973;
+  padding: 10px;
+  width: 200px;
+  float: right;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 418px) {
+  .burger {
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    background-color: #DBA51F;
+    height: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .burgerMenu {
+    cursor: pointer;
+  }
+
+  .navDisplay {
+    display: none;
+  }
+
+  .socialMedia a {
+    display: none;
+  }
+
+  .head {
+    z-index: 200;
+  }
+  .head nav {
+    width: 300px;
+    height: 40vh;
+    margin: auto;
+    border-radius: 10px;
+  }
+  .head nav li {
+    display: flex;
+    flex-direction: column;
+    background-color: #DBA51F;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.17) 0px 5px 6px;
+    width: 200px;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 20px auto;
+  }
+}/*# sourceMappingURL=navStyle.css.map */

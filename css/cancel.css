@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.collection {
+  text-align: center;
+  margin: 5% 0px;
+  font-size: 20px;
+}
+
+.mainRow {
+  background-color: #3e8973;
+  height: 400px;
+  align-items: center;
+}
+
+.mainBox {
+  height: 600px;
+  align-items: center;
+  text-align: center;
+}
+.mainBox .displayImg {
+  transition: all 0.2s ease-in-out;
+}
+.mainBox .displayImg img {
+  border: 3px solid goldenrod;
+  width: 200px;
+  height: 230px;
+}
+.mainBox .displayImg:hover {
+  transform: scale(1.1);
+}
+.mainBox a {
+  color: #DBA51F;
+}
+.mainBox a:hover {
+  color: navy;
+}/*# sourceMappingURL=cancel.css.map */

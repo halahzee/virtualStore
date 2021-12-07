@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.introBox {
+  margin: auto;
+  width: 400px;
+}
+
+.mainBox {
+  margin: auto;
+}
+.mainBox .videoIntro {
+  justify-content: center;
+}
+.mainBox .videoIntro iframe {
+  width: 600px;
+  height: 400px;
+  margin-top: 10px;
+}
+.mainBox .aboutUs {
+  margin: 5% 0px;
+  background-color: #3e8973;
+  height: 350px;
+  color: white;
+  font-size: 18px;
+  padding: 40px;
+}
+
+@media only screen and (max-width: 416px) {
+  .introBox {
+    margin: auto;
+    color: whitesmoke;
+  }
+
+  .aboutUs p {
+    font-size: 17px;
+  }
+
+  .videoIntro {
+    margin: auto;
+  }
+}/*# sourceMappingURL=about.css.map */

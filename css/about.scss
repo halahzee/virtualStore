@@ -1,0 +1,67 @@
+$navColor: #3e8973;
+$headerColor: #344a38;
+$fontColor: #DBA51F;
+$font:'Josefin Sans', sans-serif;
+$fontHeader: 'Raleway', sans-serif;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: $font;
+
+}
+.introBox{
+    margin: auto;
+    width: 400px;
+    
+}
+
+
+.mainBox{
+    margin: auto;
+  
+   .videoIntro{
+
+       justify-content: center;
+      
+   } 
+
+   .videoIntro iframe{
+       width: 600px;
+       height: 400px;
+       margin-top: 10px;
+   }
+.aboutUs{
+
+    margin: 5% 0px;
+    background-color: $navColor;
+    height: 350px;
+    color: white;
+    font-size: 18px;
+    padding: 40px;
+}
+}
+
+@media only screen and (max-width: 416px){
+   
+    .introBox{
+        margin: auto;
+        color: whitesmoke;
+    }
+
+   
+    .aboutUs p{
+        font-size: 17px;
+     
+    }
+      
+      
+
+   .videoIntro{
+       margin: auto;
+   }
+
+}
+
+

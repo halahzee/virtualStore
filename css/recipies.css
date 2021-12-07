@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.recipeBlogMain .recipeBlog {
+  width: 350px;
+  background-color: #3e8973;
+  margin: 25% 0px;
+  border-radius: 8px;
+  padding: 30px;
+  height: 480px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.17) 0px 5px 6px;
+}
+.recipeBlogMain .recipeBlog img {
+  width: 300px;
+  height: 350px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.17) 0px 5px 6px;
+  margin-bottom: 22px;
+}
+.recipeBlogMain .recipeBlog a {
+  color: #dba61f;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.matchaRecipe, .pumpkinRecipe, .roseRecipe {
+  display: none;
+  width: 400px;
+  background-color: #3e897260;
+  padding: 30px;
+  margin: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.17) 0px 5px 6px;
+}
+.matchaRecipe li, .pumpkinRecipe li, .roseRecipe li {
+  margin-left: 20px;
+}
+
+.backButton {
+  display: none;
+}
+.backButton button {
+  background-color: #dba61f;
+  border: 0px;
+  padding: 15px;
+  margin-top: 20px;
+  margin-left: 8%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.17) 0px 5px 6px;
+  cursor: pointer;
+  color: #252424;
+}
+.backButton button:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 420px) {
+  .matchaRecipe, .pumpkinRecipe, .roseRecipe {
+    display: flex;
+    margin: 10px auto;
+  }
+}/*# sourceMappingURL=recipies.css.map */

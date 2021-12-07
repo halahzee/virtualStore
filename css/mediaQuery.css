@@ -1,0 +1,206 @@
+/*-------------------------------------MEDIA QUERY------------------------------------- */
+/*-------------------------------------MEDIA QUERY------------------------------------- */
+/*-------------------------------------Store Page------------------------------------- */
+@media only screen and (max-width: 414px) {
+  .socialMedia a {
+    display: none;
+  }
+
+  .ShopHead {
+    display: flex;
+    flex-direction: column;
+    padding: 50% 0px 35px;
+    background-color: none;
+  }
+
+  .logo {
+    margin: 20%;
+  }
+  .logo img {
+    width: 200px;
+    margin: auto;
+  }
+
+  .burger {
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    background-color: #DBA51F;
+    height: 3px;
+    margin: 5px auto;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .burgerMenu {
+    cursor: pointer;
+  }
+
+  nav {
+    display: flex;
+    margin-top: 12%;
+    background-color: #3e8973;
+    height: 15vh;
+    transition: 0.3s;
+  }
+  nav li a {
+    color: black;
+    flex-direction: column;
+  }
+}
+.searchInput {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 100%;
+}
+
+.socialMedia {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 100%;
+}
+
+.btnLogin {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 100%;
+}
+
+form select {
+  width: 120px;
+}
+
+.box {
+  border: 2px solid rgba(117, 109, 109, 0.548);
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 15px;
+  height: 400px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.17) 0px 5px 6px;
+}
+
+.review {
+  background-color: #3e8973;
+  margin: 10% 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+.review .revImg {
+  width: 100px;
+  border-radius: 200px;
+  box-shadow: rgba(10, 9, 9, 0.745) 5px 5px 5px 2px;
+}
+.review .stars {
+  color: #d8ad14;
+  margin-top: 20px;
+}
+
+.teaRecipeHome {
+  display: flex;
+  flex-direction: column;
+}
+
+.textRecipe {
+  color: white;
+}
+
+.recipeImg {
+  color: white;
+}
+.recipeImg .img1 {
+  width: 250px;
+  height: 300px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.19) 0px 5px 6px;
+  cursor: pointer;
+}
+.recipeImg .img2 {
+  width: 250px;
+  height: 300px;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.19) 0px 5px 6px;
+  cursor: pointer;
+}
+
+.reviewBox {
+  width: 200px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.reviewBox h3 {
+  font-size: 15px;
+  padding-top: 10px;
+}
+.reviewBox img {
+  margin: auto;
+  position: absolute;
+  left: 25%;
+  top: -5%;
+  cursor: pointer;
+}
+.reviewBox .CustomerReview {
+  background-color: #344a38;
+  color: white;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.teaRecipeHome {
+  background-color: #344a38;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.teaRecipeHome .recipeImg {
+  margin: auto;
+}
+.teaRecipeHome .img2 {
+  margin-left: 50px;
+}
+
+.subscription {
+  padding: 5%;
+  justify-content: center;
+}
+.subscription img {
+  width: 350px;
+  margin-left: 15%;
+  align-items: center;
+}
+.subscription .sub {
+  margin-top: 10%;
+}
+
+.Footer {
+  background-color: #344a38;
+  color: #DBA51F;
+}
+.Footer a {
+  color: #DBA51F;
+  border: 0px;
+  font-size: 18px;
+}
+.Footer button {
+  color: #DBA51F;
+}
+
+.footerSocial {
+  background-color: #3e8973;
+  color: #DBA51F;
+  border-radius: 10px 10px 0px 0px;
+  font-size: 20px;
+}
+.footerSocial a {
+  font-size: 30px;
+}
+
+.boxDigital {
+  height: 450px;
+}/*# sourceMappingURL=mediaQuery.css.map */

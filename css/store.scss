@@ -1,0 +1,39 @@
+$navColor: #3e8973;
+$headerColor: #344a38;
+$fontColor: rgb(219, 166, 31);
+$font:'Josefin Sans', sans-serif;
+$fontHeader: 'Raleway', sans-serif;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: $font;
+
+}
+
+
+.review {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(57, 57, 57, 0.478) 0px 5px 6px;
+}
+
+
+.recipeBox{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(57, 57, 57, 0.478) 2px 7px 10px;
+}
+
+.headShopNow a{
+    color: whitesmoke;
+}
+
+.recipeImg a {
+    color: white;
+}
+.recipeImg a:hover {
+    color: $fontColor;
+}
+
+form select{
+    width: 120px;
+}
+

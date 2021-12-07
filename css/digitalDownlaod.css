@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.firstDownload {
+  background-color: lightgray;
+  padding: 30px;
+  margin: 10% 0px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.downloadItem img {
+  width: 250px;
+  border: 2px solid #035b1b;
+}
+
+.digitalLinks {
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 20px;
+  color: rgba(56, 55, 55, 0.788);
+  font-size: 18px;
+}
+.digitalLinks button {
+  background-color: #3e8973;
+  border: 0px;
+  padding: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: rgba(56, 55, 55, 0.788);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.digitalLinks button a {
+  color: #DBA51F;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 418px) {
+  .ShopHead {
+    height: 60vh;
+  }
+
+  .burger {
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    background-color: #DBA51F;
+    height: 3px;
+    margin: 5px auto;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .burgerMenu {
+    cursor: pointer;
+  }
+
+  .navDisplay {
+    display: none;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .head {
+    z-index: 200;
+  }
+  .head nav {
+    width: 300px;
+    height: 40vh;
+    margin: auto;
+    border-radius: 10px;
+  }
+  .head nav li {
+    display: flex;
+    flex-direction: column;
+    background-color: #DBA51F;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.17) 0px 5px 6px;
+    width: 200px;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 20px auto;
+  }
+}
+@media only screen and (max-width: 418px) {
+  .burger {
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    background-color: #DBA51F;
+    height: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .burgerMenu {
+    cursor: pointer;
+  }
+
+  .navDisplay {
+    display: none;
+  }
+
+  .socialMedia a {
+    display: none;
+  }
+
+  .head {
+    z-index: 200;
+  }
+  .head nav {
+    width: 300px;
+    height: 40vh;
+    margin: auto;
+    border-radius: 10px;
+  }
+  .head nav li {
+    display: flex;
+    flex-direction: column;
+    background-color: #DBA51F;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.17) 0px 5px 6px;
+    width: 200px;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 20px auto;
+  }
+}/*# sourceMappingURL=digitalDownlaod.css.map */

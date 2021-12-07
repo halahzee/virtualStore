@@ -1,0 +1,52 @@
+
+$navColor: #3e8973;
+$headerColor: #344a38;
+$fontColor: #DBA51F;
+$font:'Josefin Sans', sans-serif;
+$fontHeader: 'Raleway', sans-serif;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: $font;
+
+}
+
+
+.collection{
+    text-align: center;
+    margin: 5% 0px;
+    font-size: 20px;
+}
+
+.mainRow{
+    background-color: $navColor;
+    height: 400px;
+    align-items: center;
+}
+.mainBox{
+    height: 600px;
+    align-items: center;
+    text-align: center;
+    
+
+    .displayImg{
+        transition: all .2s ease-in-out;
+   img{
+       border: 3px solid goldenrod;
+       width: 200px;
+       height: 230px;
+   }
+    }
+    .displayImg:hover{
+        transform: scale(1.1);
+    }
+    a{
+        color: $fontColor;
+       
+    }
+    a:hover{
+        color: navy;
+    }
+}
